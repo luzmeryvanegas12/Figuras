@@ -1,0 +1,75 @@
+nav{
+    background-color: black;
+    margin-bottom: 10px;
+   
+}
+
+nav{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+        
+nav ul{
+    margin: 10px;
+    padding: 0; 
+    list-style:one;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 2rem;
+}
+
+
+nav ul li a {
+    display:block;
+}
+
+
+div {
+  height: 150px;width: 150px; 
+}
+
+.circulo {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    background-color: black;border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 2px 4px violet;
+    
+}
+.cuadrado {
+    margin: auto;
+    background-color: blue;
+    margin-bottom: 15px;
+    height: 150px;
+    width: 150px;
+    box-shadow: 5px 5px 0 0 black;
+}
+
+.cuadrado-tricolor {
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-left: 100px solid blue;
+    border-bottom: 50px solid red;
+    border-top: 50px solid yellow;
+    margin-bottom: 10px;
+}
+.circulo-tricolor {
+    width: 0;
+    height: 0;
+    margin: auto;
+    border-radius: 50%;
+    border-right: 50px solid transparent;
+    border-left: 50px solid blue;
+    border-top: 50px solid yellow;
+    border-bottom: 50px solid red;
+
+
+
+}
+
+
+
