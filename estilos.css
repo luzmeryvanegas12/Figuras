@@ -1,12 +1,6 @@
 nav{
-    background-color: black;
+    background-color: #000000;
     margin-bottom: 10px;
-   
-}
-
-nav{
-    color: white;
-    font-family: 'Franklin Gothic Medium';
 }
         
 nav ul{
@@ -18,11 +12,13 @@ nav ul{
 nav ul li {
     display: inline-block;
     padding: 2rem;
+    
 }
-
 
 nav ul li a {
     display:block;
+    color: whitesmoke;
+    align-items: center;
 }
 
 
@@ -36,7 +32,7 @@ div {
     margin: auto;
     background-color: black;border-radius: 50%;
     margin-bottom: 10px;
-    box-shadow: 1px 1px 2px 4px violet;
+    box-shadow: 1px 1px 2px 4px rgb(130, 180, 238);
     
 }
 .cuadrado {
@@ -66,8 +62,6 @@ div {
     border-left: 50px solid blue;
     border-top: 50px solid yellow;
     border-bottom: 50px solid red;
-
-
 
 }
 
